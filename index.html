@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
+    <title>Hoang Tran Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- ========================= SWITCHER ========================= -->
+    <input type="radio" name="color" id="color-1" />
+    <input type="radio" name="color" id="color-2" />
+    <input type="radio" name="color" id="color-3" />
+    <input type="radio" name="color" id="color-4" />
+    <input type="radio" name="color" id="color-5" />
+    <input type="radio" name="color" id="color-6" />
+    <input type="radio" name="color" id="color-7" />
+    <input type="radio" name="color" id="color-8" />
+    <input type="radio" name="color" id="color-9" />
+    <input type="radio" name="color" id="color-10" />
+    <input type="checkbox" id="toggler" />
+    <input type="checkbox" id="day-night" />
+
+    <div class="style__switcher">
+        <label for="toggler" class="style__switcher-toggler">
+            <i class="fa-solid fa-gear fa-spin"></i>
+        </label>
+
+        <label for="day-night" class="style__switcher-theme">
+            <i class="fa-solid fa-sun"></i>
+            <i class="fa-solid fa-moon"></i>
+        </label>
+
+        <h3 class="style__switcher-title">Theme Colors</h3>
+
+        <div class="style__switcher-colors">
+            <label for="color-1" class="color-1 color"></label>
+            <label for="color-2" class="color-2 color"></label>
+            <label for="color-3" class="color-3 color"></label>
+            <label for="color-4" class="color-4 color"></label>
+            <label for="color-5" class="color-5 color"></label>
+            <label for="color-6" class="color-6 color"></label>
+            <label for="color-7" class="color-7 color"></label>
+            <label for="color-8" class="color-8 color"></label>
+            <label for="color-9" class="color-9 color"></label>
+            <label for="color-10" class="color-10 color"></label>
+        </div>
+    </div>
+
+    <header class="header">
+
+        <nav class="nav container">
+            <a href="#" class="nav__logo">HoangTran</a>
+
+            <input type="checkbox" id="nav-toggler">
+
+            <label for="nav-toggler" class="nav__toggle">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+
+            <ul class="nav__list">
+                <li class="nav__item active-link">
+                    <a href="#home" class="nav__link">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">About</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#experiences" class="nav__link">Experiences</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#services" class="nav__link">Services</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#projects" class="nav__link">Projects</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#skills" class="nav__link">Skills</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contact" class="nav__link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main class="main">
+        <!-- ========================= HOME ========================= -->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <h1 class="home__title">Hello, my name is <span class="name">Hoang</span></h1>
+                    <h1 class="home__title">
+                        I'm a <span class="typing">Vulnerability Analyst</span>
+                    </h1>
+
+                    <p class="home__description">
+                        🚀IT is about solving problems, not just providing technology. 🌟Ensuring <span
+                            class="violet">Confidentiality</span> -
+                        <span class="violet">Integrity</span> - <span class="violet">Availability</span> for systems⌨️
+                    </p>
+
+                    <div class="home__btns">
+                        <a href="#contact" class="btn">Contact Me</a>
+                        <a href="#experiences" class="btn btn--transparent">Experiences</a>
+                    </div>
+                </div>
+
+                <div class="home__img-wrapper">
+                    <img src="assets/img/homeimg.png" alt="" class="home__img max_home_img" />
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================= ABOUT ========================= -->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__img-wrapper">
+                    <img src="assets/img/aboutimg.png" alt="" class="about__img" />
+                    <!-- <img src="assets/img/aboutimg.png" alt="" class="about__img" />
+                    <img src="assets/img/aboutimg.png" alt="" class="about__img" />
+                    <img src="assets/img/aboutimg.png" alt="" class="about__img" /> -->
+                </div>
+
+                <div class="about__content">
+                    <h2 class="section__title" data-title="Who am i?">
+                        I'm Hoang Tran, a Vulnerability Analyst and System Administrator
+                    </h2>
+
+                    <p class="about__description">As a Vulnerability Analyst with more than 1 years of experience, I
+                        possess a proven track record in safeguarding IT systems against security threats. My expertise
+                        lies in identifying, assessing, and mitigating vulnerabilities across diverse environments,
+                        including servers, cloud platforms, and networks. I have a strong proficiency in utilizing
+                        vulnerability management tools and technologies to ensure compliance with industry standards.
+                    </p>
+
+                    <ul class="about__data grid">
+                        <li class="data__item">
+                            <h3 class="data__title">Name:</h3>
+                            <span class="data__description">Tran Viet Hoang</span>
+                        </li>
+
+                        <li class="data__item">
+                            <h3 class="data__title">Year of birth:</h3>
+                            <span class="data__description">2001</span>
+                        </li>
+
+                        <li class="data__item">
+                            <h3 class="data__title">From:</h3>
+                            <span class="data__description">Ho Chi Minh City</span>
+                        </li>
+
+                        <li class="data__item">
+                            <h3 class="data__title">Email:</h3>
+                            <span class="data__description about__link">hoangtranv1201@mail.com</span>
+                        </li>
+                    </ul>
+
+                    <div class="about__bottom">
+                        <a href="assets/doc/CV_TranVietHoang.pdf" class="btn" target="_blank">Download CV</a>
+
+                        <div class="about__social-links">
+                            <a href="https://www.instagram.com/hoangloup?igsh=MWtndTBwdnQ3dHlmNQ=="
+                                class="about__social-link" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+
+                            <a href="https://www.facebook.com/profile.php?id=100009822251284&mibextid=ZbWKwL"
+                                class="about__social-link" target="_blank">
+                                <i class="fa-brands fa-square-facebook"></i>
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/hoangtran-774957244/" class="about__social-link"
+                                target="_blank">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+        </section>
+
+        <!-- ========================= EXPERIENCES ========================= -->
+        <section class="qualification section" id="experiences">
+            <h2 class="section__title title-center" data-title="My Journey">
+                Qualification
+            </h2>
+
+            <div class="resume__container container grid">
+                <div class="resume__group">
+                    <h3 class="resume__heading">Experiences</h3>
+
+                    <div class="resume__items">
+                        <div class="resume__item">
+                            <div class="resume__header">
+                                <h3 class="resume__subtitle">Infra Transformation Associate</h3>
+                                <!-- <span class="resume__icon">+</span> -->
+                            </div>
+
+                            <div class="resume__content">
+                                <div class="resume__date-title">
+                                    <h3 class="resume__title">
+                                        Accenture PLC
+                                    </h3>
+                                    <span class="resume__date">June 2023 - Present</span>
+                                </div>
+                                <p class="resume__description">
+                                    Working in vulnerability management team requires me to do the
+                                    patching jobs on Unix or Windows servers or on cloud platforms such as Azure and
+                                    AWS. I also take response in security incident resolving when global SOC team sends
+                                    alert.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume__group add__margin__top">
+                    <h3 class="resume__heading">Education</h3>
+
+                    <div class="resume__items">
+                        <div class="resume__item">
+                            <div class="resume__header">
+                                <h3 class="resume__subtitle">Information Security Engineer</h3>
+                                <!-- <span class="resume__icon">+</span> -->
+                            </div>
+
+                            <div class="resume__content">
+                                <div class="resume__date-title">
+                                    <h3 class="resume__title">
+                                        Posts and Telecommunications Institute of Technology
+                                    </h3>
+                                    <span class="resume__date">August 2019 - March 2024</span>
+                                </div>
+                                <p class="resume__description">
+                                    I graduated with the Engineer's Degree in Information Security with very good degree
+                                    classification.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================= SERVICES ========================= -->
+        <section class="services section" id="services">
+            <h2 class="section__title title-center" data-title="Services">
+                What I do for you
+            </h2>
+
+            <div class="services__container container grid">
+                <div class="services__item">
+                    <i class="fa-solid fa-chart-area services__icon"></i>
+
+                    <h3 class="services__title">Vulnerability Analyze</h3>
+                    <p class="services__description">
+                        Investigate remediation impacts and instruct remediation solutions/exceptions to assets' owners.
+                    </p>
+
+                    <span class="services__no">01</span>
+                </div>
+
+                <div class="services__item">
+                    <i class="fa-solid fa-laptop services__icon"></i>
+
+                    <h3 class="services__title">System Administration</h3>
+                    <p class="services__description">
+                        Identify problems in the system, anticipate potential issues and repair systems and software
+                        when necessary.
+                    </p>
+
+                    <span class="services__no">02</span>
+                </div>
+
+                <div class="services__item">
+                    <i class="fa-solid fa-cloud services__icon"></i>
+
+                    <h3 class="services__title">Cloud Administration</h3>
+                    <p class="services__description">
+                        Manage and maintain company's cloud infrastructure and services
+                    </p>
+
+                    <span class="services__no">03</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================= PROJECTS ========================= -->
+        <section class="projects works section" id="projects">
+            <h2 class="section__title title-center" data-title="My Portfolio">
+                Recent Works
+            </h2>
+
+            <div class="work__container container grid">
+                <div class="work__card">
+                    <img src="assets/img/project-automation.png" alt="" class="work__img">
+                    <div class="work__details">
+                        <h3 class="work__title">Auto Patching</h3>
+                        <span class="work__description">Use Bash/PowerShell script to configure compliance policy on
+                            servers</span>
+                    </div>
+                </div>
+
+                <div class="work__card">
+                    <img src="assets/img/project-powerautomate.png" alt="" class="work__img">
+                    <div class="work__details">
+                        <h3 class="work__title">Auto Mailing</h3>
+                        <span class="work__description">Use Power Automate and Power BI to categorize vulnerabilities
+                            for multiple clients and update waiver automatically by month</span>
+                    </div>
+                </div>
+
+                <div class="work__card">
+                    <img src="assets/img/project-cyberdetect.png" alt="" class="work__img">
+                    <div class="work__details">
+                        <h3 class="work__title">Intrusion Detection</h3>
+                        <span class="work__description">Using DBSCAN algorithm and CNN model to detect
+                            cyber-attack</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ========================= SKILLS ========================= -->
+        <section class="skills section" id="skills">
+            <h2 class="section__title title-center" data-title="My Skills">
+                Professional Skills
+            </h2>
+
+            <div class="skills__container container grid">
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">Programming</h3>
+                        <!-- <span class="skills__no">1</span> -->
+                    </div>
+
+                    <p class="skills__description">
+                        <span>Python</span> <br>
+                        <span>Java</span><br>
+                        <span>C/C++</span><br>
+                        <span>Bash Script</span><br>
+                        <span>PowerShell Script</span>
+                    </p>
+
+                    <!-- <div class="skills__bar">
+                <div class="skills__percentage">
+                    <span></span>
+                </div>
+            </div> -->
+                </div>
+
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">Database</h3>
+                        <!-- <span class="skills__no">1</span> -->
+                    </div>
+
+                    <p class="skills__description">
+                        <span>MySQL</span> <br>
+                        <span>MSSQL</span><br>
+                        <span>Firebase</span>
+                    </p>
+
+                    <!-- <div class="skills__bar">
+                <div class="skills__percentage">
+                    <span></span>
+                </div>
+            </div> -->
+                </div>
+
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">Webserver</h3>
+                        <!-- <span class="skills__no">1</span> -->
+                    </div>
+
+                    <p class="skills__description">
+                        <span>NGINX</span><br>
+                        <span>Apache</span><br>
+                        <span>IIS</span>
+                    </p>
+
+                    <!-- <div class="skills__bar">
+                <div class="skills__percentage">
+                    <span></span>
+                </div>
+            </div> -->
+                </div>
+
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">Monitoring</h3>
+                        <!-- <span class="skills__no">1</span> -->
+                    </div>
+
+                    <p class="skills__description">
+                        <span>ELK Stack</span><br>
+                        <span>Nagios</span>
+                    </p>
+
+                    <!-- <div class="skills__bar">
+                <div class="skills__percentage">
+                    <span></span>
+                </div>
+            </div> -->
+                </div>
+
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">IaC</h3>
+                        <!-- <span class="skills__no">1</span> -->
+                    </div>
+
+                    <p class="skills__description">
+                        <span>Terraform</span><br>
+                        <span>Ansible</span>
+                    </p>
+
+                    <!-- <div class="skills__bar">
+                <div class="skills__percentage">
+                    <span></span>
+                </div>
+            </div> -->
+                </div>
+
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">Others</h3>
+                        <!-- <span class="skills__no">1</span> -->
+                    </div>
+
+                    <p class="skills__description">
+                        <span>Networking</span><br>
+                        <span>Windows</span><br>
+                        <span>Linux</span><br>
+                        <span>Qualys</span><br>
+                        <span>Prisma Cloud</span>
+                    </p>
+
+                    <!-- <div class="skills__bar">
+                <div class="skills__percentage">
+                    <span></span>
+                </div>
+            </div> -->
+                </div>
+        </section>
+
+        <!-- ========================= CONTACT ========================= -->
+        <section class="contact section" id="contact">
+            <h2 class="section__title title-center" data-title="Get in touch">
+                Contact Me
+            </h2>
+
+            <div class="contact__container container grid">
+                <div class="contact__details">
+                    <div class="contact__item">
+                        <i class="fa-solid fa-phone contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Call Me</h3>
+                            <span class="contact__data">+84 32 80 05 399</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__item">
+                        <i class="fa-solid fa-envelope contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Email Me</h3>
+                            <span class="contact__data">hoangtranv1201@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__item">
+                        <i class="fa-solid fa-location-dot contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Address</h3>
+                            <span class="contact__data">Ho Chi Minh City, Viet Nam - 700000</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact__form">
+                    <div class="form__group">
+                        <div class="form__input">
+                            <input type="text" placeholder="Name" class="input__control" />
+                        </div>
+
+                        <div class="form__input">
+                            <input type="email" placeholder="Email" class="input__control" />
+                        </div>
+                    </div>
+
+                    <div class="form__input">
+                        <input type="text" placeholder="Subject" class="input__control" />
+                    </div>
+
+                    <div class="form__input">
+                        <textarea name="" id="" placeholder="Message" cols="30" rows="10"
+                            class="input__control textarea"></textarea>
+                    </div>
+
+                    <button class="btn contact__btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+
+        <div class="footer__container container">
+            <p class="footer__copyright">&copy; 2024 Hoang Tran. Reference
+                Cryptical Coder</p>
+
+            <div class="footer__social-links">
+                <a href="https://www.instagram.com/hoangloup?igsh=MWtndTBwdnQ3dHlmNQ==" class="footer__social-link"
+                    target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="https://www.facebook.com/profile.php?id=100009822251284&mibextid=ZbWKwL"
+                    class="footer__social-link" target="_blank">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/hoangtran-774957244/" class="footer__social-link" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- ============= JS FILES ============= -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"
+        integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+
+</html>
